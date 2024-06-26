@@ -2,6 +2,7 @@
  Scrape Quotes, Authors, Tags, and links of quotes website.
 
 ## Steps Taken:
+
 ### Install necessary libraries
 > Requests, BeautifulSoup, Time, Pandas
 
