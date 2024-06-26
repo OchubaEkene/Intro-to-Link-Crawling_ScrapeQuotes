@@ -1,5 +1,5 @@
 # Intro-to-Link-Crawling_ScrapeQuotes
-## Scrape Quotes, Authors, Tags, and links off quotes website.
+## Scrape Quotes, Authors, Tags, and links of quotes website.
 
 ### Install necessary libraries
 > Requests, BeautifulSoup, Time, Pandas
