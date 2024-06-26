@@ -12,3 +12,12 @@
 
 ### Create Variable to hold data
 > quotes_data = []
+
+### Loop through all divs to fetch out data
+> for div in divs:
+> .
+> .
+> quotes_data.append({
+>   'quote': quote,
+> .
+> .})
