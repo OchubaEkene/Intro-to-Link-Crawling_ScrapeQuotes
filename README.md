@@ -3,5 +3,8 @@
 
 ### Install necessary libraries
 > Requests, BeautifulSoup, Time, Pandas
-- Handle HTTP Requests
--  
+
+### Handle HTTP Requests
+> Using Requests
+
+### Parse HTML
