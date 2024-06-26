@@ -2,8 +2,8 @@
 import requests
 from bs4 import BeautifulSoup
 import time
-import csv
 import pandas as pd
+
 
 def scrape_page(url):
     # Handle HTTP Requests
@@ -35,16 +35,16 @@ def scrape_page(url):
     return quotes_data
 
 
-def main():
+def main(max_depth=10):
     base_url = 'http://quotes.toscrape.com/page/'
     all_quotes = []
     page_number = 1
 
-    while True:
+    while page_number <= max_depth:
         url = f'{base_url}{page_number}/'
         print(f'Scraping {url}...')
         quotes_data = scrape_page(url)
-        if not quotes_data: # If no quotes are found, break the loop
+        if not quotes_data:  # If no quotes are found, break the loop
             break
         all_quotes.extend(quotes_data)
         page_number += 1
@@ -57,4 +57,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    main(max_depth=10)  # change the max_depth parameter to control the depth
