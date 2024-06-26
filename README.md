@@ -8,3 +8,7 @@
 > Using Requests
 
 ### Parse HTML
+> Using BeautifulSoup
+
+### Create Variable to hold data
+> quotes_data = []
